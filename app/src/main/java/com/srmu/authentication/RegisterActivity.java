@@ -61,7 +61,7 @@ public class RegisterActivity extends AppCompatActivity {
                 //redirect to MainActivity
                 Intent home = new Intent(RegisterActivity.this, MainActivity.class);
                 startActivity(home);
-                finish();
+                finish(); //finish stops backtracking which increase more data and complexity
             }
         });
 

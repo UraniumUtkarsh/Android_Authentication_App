@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ib_icon"
+        android:src="@drawable/spotify"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ib_icon2"
+        android:layout_below="@id/ib_icon"
+        android:src="@drawable/spotify"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ib_icon3"
+        android:layout_below="@id/ib_icon2"
+        android:src="@drawable/spotify"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ib_icon4"
+        android:layout_below="@id/ib_icon3"
+        android:src="@drawable/spotify"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
+<!-- In relative Layout -->
+<!--
+Below = upar se neeche |  Above = neeche se upar
+Right to left = ToLef-->

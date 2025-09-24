@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Authentication">
         <activity
+            android:name=".RandomOtpActivity"
+            android:exported="false" />
+        <activity
             android:name=".RelativeLayoutActivity"
             android:exported="false" />
         <activity
